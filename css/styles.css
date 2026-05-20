@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;/*se ajusta al tamaño del contenedor*/
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+/*inicio del footer*/
+footer{
+background-color: #000;
+color: #d4d4d4;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+#colegio{
+width: 33%;
+background-color: red;
+padding: 5px;
+
+}
+#colegio a{
+  color: #000;
+}
+#alumno{
+  width: 33%;
+  background-color: yellow;
+color: #aaa;
+padding: 5px;
+
+
+}
+#alumno a{
+  color: #000;}
+#redes{
+  width: 33%;
+background-color: lightblue;
+padding: 5px;
+
+
+}
+
+#redes img{
+  width: 50px;
+}
+/*inicio del header*/
+
+header{
+background-color: black;
+
+}
+#logos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+justify-content: space-between;
+}
+#copa img {
+ width: 100px;
+}
+#fifa img {
+width: 191px;
+}
+/*fin del header*/
+/*comienzo nav*/
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+.activo{
+box-shadow: 5px 5px lightgray;
+
+}
+/*fin nav*/
+/*inicio main*/
+
+section {
+  width: 1000px;
+  height: 400px;
+  background-color: thistle;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section div{
+  width: 33%;
+  height: 350px;
+  background-color: yellow;
+  margin-left: 2px;
+}
+#intro{
+background-image: url(https://astronomiaparatodos.com/wp-content/uploads/2021/02/estrellas.jpg);
+box-shadow: 5px 3px #aaa;
+border-radius: 15px;
+}
+#eeuu{
+background-image: url(https://cdn.pixabay.com/video/2024/07/18/221814_tiny.jpg);
+background-size: cover;
+
+}
+#mx{
+background-image: url(https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/01/bandera_de_mexico.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+#can{
+background-image: url(https://wallpaperset.com/w/full/2/2/6/464433.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+/*fin de main*/
+/*Cpmienzo de estadios*/
+table, td, th{
+  background-color: 8px solid red;
+}
+
+
+/*fin del footer*/
+
+
+
+
+
+
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}

@@ -113,10 +113,10 @@ section {
   justify-content: center;
 }
 section div{
-  width: 33%;
-  height: 350px;
+  width: 300px;
+  height: 170px;
   background-color: yellow;
-  margin-left: 2px;
+  margin: 5px;
 }
 #intro{
 background-image: url(https://astronomiaparatodos.com/wp-content/uploads/2021/02/estrellas.jpg);
@@ -124,18 +124,18 @@ box-shadow: 5px 3px #aaa;
 border-radius: 15px;
 }
 #eeuu{
-background-image: url(https://cdn.pixabay.com/video/2024/07/18/221814_tiny.jpg);
+background-image: url(../img/banderaeeuu.png);
 background-size: cover;
-
+background-repeat: no-repeat;
 }
 #mx{
-background-image: url(https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/01/bandera_de_mexico.jpg);
+background-image: url(../img/banderamex.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
 #can{
-background-image: url(https://wallpaperset.com/w/full/2/2/6/464433.jpg);
+background-image: url(../img/banderacan.svg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;

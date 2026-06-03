@@ -103,7 +103,7 @@ box-shadow: 5px 5px lightgray;
 
 section {
   width: 1000px;
-  height: 400px;
+ 
   background-color: thistle;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -167,4 +167,21 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+.multimedia{
+width: 800px;
+background-color: #aaa;
+}
+.multimedia video{
+width: 600px;
+}
+
+/*estadios*/
+
+#estadosunidos,#estadosunidos tr,#estadosunidos td,#estadosunidos th{
+border:solid coral3px;
+border-collapse: collapse;
+}
+#estadosunidos img{
+width: 200px;
 }
